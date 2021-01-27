@@ -1,0 +1,326 @@
+/* html-tags */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+a {
+  color: #fff;
+}
+
+/* title */
+#title {
+  color: #fff;
+  background-color: #ff4c68;
+  padding-bottom: 5rem;
+}
+
+.brand-name {
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 30%;
+}
+
+/* feature-section */
+.feature-section {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.feature-description {
+  color: #8f8f8f;
+}
+
+.feature-icon {
+  color: #ef8172;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* carousel-section */
+#testimonials {
+  color: #fff;
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-text {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.2
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+}
+
+/* press-logo */
+#press {
+  padding-bottom: 3rem;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 0 2%;
+}
+
+/* pricing */
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.pricing-text {
+  color: #8f8f8f;
+  margin: 2%;
+}
+
+.pricing-box {
+  margin-top: 5%;
+}
+
+.pricing-heading {
+  font-weight: bold;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+/* downlaod-section */
+.download-section {
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+.download-section-text {
+  font-weight: 900;
+  color: white;
+  font-size: 3rem;
+}
+
+.btn-google-play {
+  color: #000;
+  background-color: #fff;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  padding: 5% 15%;
+}
+
+.social-icons-section {
+  padding: 0 25%;
+}
+
+.social-icons {
+  padding: 0;
+}
+
+.copy {
+  color: #8f8f8f;
+  padding-top: 5%;
+}
+
+/* media-query */
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and down) */
+
+@media (max-width: 1199.98px) {
+			.carousel-text{
+		font-size: 2.6rem;
+	}
+		.press-logo {
+		width: 15%;
+	}
+}
+
+@media (max-width: 991.98px) {
+	#title {
+    text-align: center;
+}
+		.title-img{
+		display: none;
+	}
+		.carousel-text{
+		font-size: 2rem;
+	}
+	.testimonial-image{
+		width: 16%;
+	}
+	.press-logo {
+		width: 16%;
+	}
+		.card-3.card-s{
+		margin-top: 3rem;
+	}
+
+
+}
+@media (max-width: 767.98px) {
+	#title {
+    text-align: center;
+}
+	.title-img{
+		display: none;
+	}
+	.carousel-text{
+		font-size: 2rem;
+	}
+	.testimonial-image{
+		width: 20%;
+	}
+	.press-logo {
+		width: 16%;
+	}
+	  .card-s {
+		padding-bottom: 3rem;
+  }
+	.card-3.card-s {
+    margin-top: 0;
+}
+
+}
+
+@media (max-width: 575.98px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    transform: rotate(0deg);
+    width: 60%;
+    position: static;
+    margin: 2%;
+  }
+
+  .carousel-text {
+    font-size: 1.6rem;
+    font-weight: 900;
+    line-height: 1.2;
+  }
+	
+  .card-s {
+		padding-bottom: 3rem;
+  }
+	.card-3.card-s {
+    margin-top: 0;
+}
+  .carousel-item {
+    padding: 7% 12%;
+    margin: 3% 0;
+  }
+
+  .testimonial-image {
+    width: 25%;
+    border-radius: 100%;
+  }
+
+  #press-xs {
+    padding-bottom: 3rem;
+    background-color: #fff;
+    padding: 7% 7% 3%;
+  }
+
+  .our-trusts-xs {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #000;
+  }
+
+  .press-logo-xs {
+    width: 65%;
+    padding: 8%;
+  }
+
+  .arrow-xs {
+    position: relative;
+    background-color: #fff;
+  }
+
+  .arrow-xs span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #06A8FF;
+    border-right: 5px solid #06A8FF;
+    transform: rotate(45deg);
+    margin: 0 auto;
+    animation: animate 2s infinite;
+  }
+
+  .arrow-xs span:nth-child(2) {
+    animation-delay: -0.2s;
+  }
+
+  .arrow-xs span:nth-child(3) {
+    animation-delay: -0.4s;
+  }
+
+  @keyframes animate {
+    0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+    }
+
+    50% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(20px, 20px);
+    }
+  }
+}
+
+
+
+
+
+
+
